@@ -5,7 +5,7 @@
 #include <freertos/FreeRTOS.h>
 #include <freertos/semphr.h>
 #include "mutex.h"
-#include "limits.h"
+#include "project_limit.h"
 
 
 #define USE_MUTEX                     TRUE
