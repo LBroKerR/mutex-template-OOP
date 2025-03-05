@@ -4,7 +4,7 @@ bool_mutex::bool_mutex(){
     variable=false;
 }
 
-void bool_mutex::set_variable(void* const param){
+void bool_mutex::set_variable(void* param){
     if(param!=nullptr){
         variable=*(bool*)param;
     }

@@ -4,7 +4,7 @@ uint_mutex::uint_mutex(){
     variable=0;
 }
 
-void uint_mutex::set_variable(void* const param){
+void uint_mutex::set_variable(void* param){
     if(param!=nullptr){
         variable=*(unsigned*)param;
     }

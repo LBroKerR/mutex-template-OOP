@@ -10,8 +10,8 @@ class bool_mutex: public mutex{
 public:
     bool_mutex();
 
-    void set_variable(void* const);
-    void get_variable(void*);
+    void set_variable(void*)override;
+    void get_variable(void*)override;
 };
 
 #endif //BOOL_MUTEX_H

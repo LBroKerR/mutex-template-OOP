@@ -11,8 +11,8 @@ class float_mutex: public mutex{
 public:
     float_mutex();
 
-    void set_variable(void* const);
-    void get_variable(void*);
+    void set_variable(void*)override;
+    void get_variable(void*)override;
 };
 
 #endif //FLOAT_MUTEX_H

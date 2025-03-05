@@ -4,7 +4,7 @@ float_mutex::float_mutex(){
     variable=0.0;
 }
 
-void float_mutex::set_variable(void* const param){
+void float_mutex::set_variable(void* param){
     if(param!=nullptr){
         variable=*(float*)param;
     }
