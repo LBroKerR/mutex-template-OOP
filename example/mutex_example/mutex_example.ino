@@ -2,6 +2,10 @@
 #include <freertos/task.h>
 
 #include "float_mutex.h"
+#include "bool_mutex.h"
+#include "uint_mutex.h"
+#include "String_mutex.h"
+#include "sint_mutex.h"
 
 #include "Pim_var.h"
 
